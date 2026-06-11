@@ -10,6 +10,14 @@ Notebook artifact for a decentralized reinforcement-learning system design.
 - ADMM-style dual correction for consensus updates.
 - Simulated stragglers, malicious clients, and 30% offline-agent stress tests.
 
+## Validation Snapshot
+
+- Stress test: `20` agents, `4` task policies, `64-D` policy vectors, `50`
+  gossip rounds.
+- Fault model: `30%` offline/slow agents and `15%` Byzantine agents.
+- Robust filter rejected `214` outlier peer updates while logging consensus
+  error and accepted-update traces.
+
 ## Artifact
 
 - `gossippop_decentralized_federated_rl.ipynb`
